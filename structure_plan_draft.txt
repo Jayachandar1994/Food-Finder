@@ -1,0 +1,29 @@
+PLAN (DRAFT) : 
+
+Nick: HTML 
+Raj: HTML & JavaScript
+Oscar: Javascript, PHP, & SQL
+Jay: R
+
+Procedure: 
+original dataset
+go through dataset, 
+remove NAs, 
+save new dataset to new (csv/excel?) file 
+insert new data set into MariaDB dataset, 
+
+in R, ( CREATE COLUMNS WITH YES AND NO FOR EACH FOOD ) 
+if contains chicken, create column with Y or Ns 
+
+in php, 
+$checkboxInput  = whatever was chosen from html 
+$input = convert $checkboxInput into csv 
+
+for each input { 
+	select $input from $table where fries = Y 
+	( example: select restaurant_name, longitude, latitude from $table where $input = Y ) 
+	use UNION all to append different input tables 
+}  
+
+new table with desired food(s)
+map all locations (lat/long) by iterating through table 

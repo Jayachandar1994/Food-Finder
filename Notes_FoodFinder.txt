@@ -1,0 +1,26 @@
+NOTES: 
+
+
+LOADING CSV FILE INTO DATABASE USING SQL: 
+
+load data local infile "/HD/Applications/XAMPP/xamppfiles/htdocs/FoodFinder/data.csv” 
+into table foodfinder.restaurants 
+FIELDS TERMINATED BY ‘,'
+ENCLOSED BY '\”'
+LINES TERMINATED BY '\n’;
+
+
+
+CREATING NEW USER/PASSWORD VIA MARIADB: 
+
+CREATE USER 'fooduser'@'localhost';
+SET PASSWORD FOR 'fooduser'@'localhost' = PASSWORD('findyourfood');
+GRANT ALL PRIVILEGES ON foodfinder.* TO 'fooduser'@'localhost';
+quit; 
+// login again using the password you created 
+
+
+
+
+
+
