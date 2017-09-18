@@ -12,7 +12,7 @@ Visit the main.php link, choose the types of food you’re looking for, click su
 The Misadventures of Flap Jack Team Members: 
 Nick Chen
 Rajesh Nair
-Jaya Chandar
+Jaya Chandar Payyavula
 Oscar Lomibao Jr.
 
 
