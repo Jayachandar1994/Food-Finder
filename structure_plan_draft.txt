@@ -3,7 +3,7 @@ PLAN (DRAFT) :
 Nick: HTML 
 Raj: HTML & JavaScript
 Oscar: Javascript, PHP, & SQL
-Jay: R
+Jay: R, Javascript
 
 Procedure: 
 original dataset
